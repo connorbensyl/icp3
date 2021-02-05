@@ -28,12 +28,11 @@ def main():
     emp1 = Employee("John", "Smith", 50000, "Sales") #create some employee instances
     emp2 = Employee("Joe", "Williams", 30000, "Marketing")
     emp3 = Employee("Theo", "Von", 100000, "Executive")
-
+    print(emp3.avg_salary())
     emp4 = Fulltime_Employee("Peter", "Jackson", 40000, "Movies")
     emp4 = Fulltime_Employee("Sarah", "Johnson", 90000, "Accounting")
     emp5 = Fulltime_Employee("Gina", "Peters", 110000, "Executive")
     print(emp5.avg_salary())
-
     getLinks()
 
 
